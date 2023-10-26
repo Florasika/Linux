@@ -1,0 +1,18 @@
+/*public static boolean ajouter(Articles a) {
+    Connection con = (Connection) Connect.se_connecter();
+    boolean ajout = false;
+    String requ = "INSERT INTO articles (quantite, limite, prix_unit, date_creation, libelle) VALUES (?, ?, ?, ?, ?)";
+    try {
+        PreparedStatement ps = con.prepareStatement(requ);
+        ps.setInt(1, a.getQuantite());
+        ps.setInt(2, a.getLimite());
+        ps.setDouble(3, a.getPrix());
+        ps.setObject(4, a.getDate_creation());
+        ps.setString(5, a.getLibelle());
+        ps.execute();
+        ajout = true;
+    } catch (SQLException ex) {
+        Logger.getLogger(ArticlesServices.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return ajout;
+}*/
